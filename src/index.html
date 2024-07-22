@@ -1,14 +1,29 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="da">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- </head>
- <body>
-    <h1>Hello World</h1>
-    <div></div>
-    <div class="title"></div>
-    
- </body>
- </html>
+    <title>Fomu</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
+        <div class="title">Fomu</div>
+        <div class="icons">
+            <div class="icon" id="favorites">&#10084;</div>
+            <div class="icon" id="cart">&#128722;</div>
+        </div>
+    </nav>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Søg...">
+    </div>
+    <div class="content">
+        <!-- Indholdet af siden -->
+    </div>
+    <footer>
+        <p>About Fomu: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit at risus fermentum bibendum.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
